@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+
     <title>Webbit</title>
 </head>
 
 <body background="./images/background.jpeg">
     <nav class="menu">
+        <a href="/">
+        <img height="100px"
+        src="images/webbit-logo.png">
         <img height="40px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Reddit_logo.svg/440px-Reddit_logo.svg.png">
+        </a>
         <a href="#">Home</a>
         >
         <a href="#">About</a>
@@ -19,10 +25,32 @@
         <a href="#">Posts</a>
     </nav>
     <hr>
+    <table>    
+        <thead>
+            <tr>
+                <th colspan="2">Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td><a href="/">Programmer Humour</a></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td><a href="/">Class Art</a></td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td><a href="/">Memes</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
     </br>
 
     <div class="card">
-        <img height="400px" src="https://i.redd.it/d6wdbwqr7ic91.jpg" alt="Avatar">
+        <img height="400px" src="images/alwaysHasBeen.jpeg" alt="Avatar">
         <div class="container">
             <h4><b>It's All Objects</b></h4>
             <p>Always has been!</p>
@@ -35,12 +63,30 @@
 </br>
 
     <div class="card">
-        <img height="400px" src="https://i.redd.it/d6wdbwqr7ic91.jpg" alt="Avatar">
+        <img height="400px" src="images/stackOverflow.jpeg" alt="Avatar">
         <div class="container">
-            <h4><b>It's All Objects</b></h4>
-            <p>Always has been!</p>
+            <h4><b>But i just asked...</b></h4>
+            <p>DOWNVOTE</p>
         </div>
     </div>
+<br>
+
+<hr>
+<br>
+<div class="card">
+    <video width="320" height="240" controls>
+        <source src="images/chickens.mp4" type="video/mp4">
+      </video>
+    <div class="container">
+        <h4><b>Look at all those chickens!!</b></h4>
+        <p>(they're just geese)</p>
+    </div>
+</div>
+<br>
+
+<!-- <script>
+    console.log('Hello World!');
+</script> -->
 </body>
 
 </html>

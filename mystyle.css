@@ -1,0 +1,86 @@
+/* Import Font Awesome */
+@import url(https://use.fontawesome.com/releases/v5.4.2/css/all.css);
+
+body {
+    background-color: #030303;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.card {
+    /* margin-top: 100px; */
+    background-color: #1A1A1B;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+
+.card:hover {
+    border: 1px solid white;
+}
+
+/* .container {
+    padding: 2px 16px;
+} */
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.item {
+    height: 100px;
+    width: 100px;
+    /* A fixed width as the default */
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #161617;
+}
+
+.item-center {
+    flex-grow: 1;
+    /* Set the middle element to grow and stretch */
+}
+
+.upvote {
+    background-color: #4CAF50; /* Green */
+    width: 40px;
+    height: 40px;    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.upvote:hover {
+    background-color: darkgreen; /* Green */
+    color: white;
+  }
+.downvote {
+    background-color: #ff0000; /* Green */
+    width: 40px;
+    height: 40px;    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.downvote:hover {
+    background-color: darkred; /* Green */
+    color: white;
+  }

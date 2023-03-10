@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js"></script>
-
+    <link rel="stylesheet" href="mystyle.css">
     <title>Webbit</title>
 </head>
 
-<body background="./images/background.jpeg">
+<body>
     <nav class="menu">
         <a href="/">
         <img height="100px"
@@ -50,10 +50,15 @@
     </br>
 
     <div class="card">
-        <img height="400px" src="images/alwaysHasBeen.jpeg" alt="Avatar">
-        <div class="container">
+        <div class="item">
+            <button class="upvote"><i class="fa fa-arrow-up"></i></button>
+            <button class="downvote"><i class="fa fa-arrow-down"></i></button>
+
+        </div>
+        <div class="item-center">
             <h4><b>It's All Objects</b></h4>
             <p>Always has been!</p>
+            <img class="image" height="400px" src="images/alwaysHasBeen.jpeg" alt="Avatar">
         </div>
     </div>
 </br>
@@ -63,24 +68,37 @@
 </br>
 
     <div class="card">
-        <img height="400px" src="images/stackOverflow.jpeg" alt="Avatar">
-        <div class="container">
+        <div class="item">
+            <button class="upvote"><i class="fa fa-arrow-up"></i></button>
+            <button class="downvote"><i class="fa fa-arrow-down"></i></button>
+
+        </div>
+        <div class="item-center">
             <h4><b>But i just asked...</b></h4>
             <p>DOWNVOTE</p>
+            <img class="image" height="400px" src="images/stackOverflow.jpeg" alt="Avatar">
+
         </div>
+
     </div>
 <br>
 
 <hr>
 <br>
 <div class="card">
-    <video width="320" height="240" controls>
-        <source src="images/chickens.mp4" type="video/mp4">
-      </video>
-    <div class="container">
+    <div class="item">
+        <button class="upvote"><i class="fa fa-arrow-up"></i></button>
+        <button class="downvote"><i class="fa fa-arrow-down"></i></button>
+
+    </div>
+    <div class="item-center">
         <h4><b>Look at all those chickens!!</b></h4>
         <p>(they're just geese)</p>
+        <video class="video" height="400px" controls>
+            <source src="images/chickens.mp4" type="video/mp4">
+          </video>
     </div>
+
 </div>
 <br>
 

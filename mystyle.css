@@ -102,16 +102,16 @@ body {
 .search-box {
     /* background-color: #27272A;
     padding: 20px; */
-    display: flex;
+    /* display: flex; */
     max-width: 1000px;
-    flex: 1;
+    /* flex: 1; */
 
 }
 .nav-login {
 
 }
 
-input {
+.input-search {
     background-color: #27272A;
     padding: 5px 20px;
     text-align: center;
@@ -119,4 +119,53 @@ input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 100%;
     border-radius: 50px;
+}
+
+.span-logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.search-button {
+
+}
+
+.login-button {
+    background-color: #D7DADC;
+    color: #27272A;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.create-button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+
+}
+/* 
+input {
+    width: 100%;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #D7DADC;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 10px dotted orange;
+}
+
+.title-input {
+    margin: 10px;
+}
+
+.textarea-input {
+    padding: 10px;
 }

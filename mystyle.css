@@ -169,3 +169,16 @@ form {
 .textarea-input {
     padding: 10px;
 }
+
+.card-stack {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-card {
+    flex-basis: 25%;
+        background-color: #1A1A1B;
+        padding-bottom: 20px;
+        /* border: 1px white solid */
+}
